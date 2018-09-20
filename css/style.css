@@ -111,6 +111,37 @@ header a:hover {
 }
 
 
+/*Hamburger menu*/
+
+
+header.responsive {
+	display: none;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	text-decoration: none;
+}	
+
 
 /*News box*/
 
@@ -392,6 +423,7 @@ footer {
 
 /*Media Queries*/
 
+
 @media(max-width: 768px){
 	header #logo,
 	header nav,
@@ -405,6 +437,13 @@ footer {
 		float: none;
 		text-align: center;
 		width: 100%;
+	}
+
+	header {
+		display: none;
+	}
+	header.responsive {
+		display: inline;
 	}
 
 	header {
@@ -484,8 +523,6 @@ footer {
 
 
 }	
-
-
 
 
 
