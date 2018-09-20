@@ -47,7 +47,7 @@ p {
 }
 
 li a {
-	font-family: 'HelveticaNeue';
+	font-family: 'HelveticaNeue', sans-serif;
 	font-weight: 500;
 
 }
@@ -121,7 +121,7 @@ header a:hover {
 }	
 
 #news-box p {
-	font-family: HelveticaNeue;
+	font-family: 'HelveticaNeue', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 	color: #ffffff;
