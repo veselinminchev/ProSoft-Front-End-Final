@@ -4,7 +4,7 @@
 
 $('.counter').counterUp({
     delay: 10,
-    time: 1000
+    time: 1600
 });
 
 
@@ -56,6 +56,14 @@ $('.counter').counterUp({
 $(window).scroll(function(){
     $(".top").css("opacity", 1 - $(window).scrollTop() / 300);
   });
+
+
+
+
+
+
+
+
 
 
 

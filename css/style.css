@@ -92,6 +92,7 @@ header #logo h1 {
 	margin: 0;
 }
 
+
 header nav {
 	float: right;
 	margin-top: 15px;
@@ -302,20 +303,6 @@ article#main-col {
 
 
 
-#iphone {
-	margin-top: 100px;
-}
-
-#iphone.container img {
-	float: left;
-	display: inline;
-}
-
-
-#iphone.container p {
-	float: right;
-	display: inline-block;
-}
 
 
 
@@ -334,7 +321,7 @@ background: -moz-linear-gradient(left, rgba(32,41,163,1) 0%, rgba(46,120,247,1) 
 background: -webkit-linear-gradient(left, rgba(32,41,163,1) 0%,rgba(46,120,247,1) 0%,rgba(46,63,247,1) 44%,rgba(32,14,234,1) 100%);
 background: linear-gradient(to right, rgba(32,41,163,1) 0%,rgba(46,120,247,1) 0%,rgba(46,63,247,1) 44%,rgba(32,14,234,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2029a3', endColorstr='#200eea',GradientType=1 );
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 #email-container .email-info {
@@ -416,13 +403,17 @@ footer hr {
 
 footer {
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 0px;
 	color: #cecece;
 	background: url(../images/footer_background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+
+footer i:hover {
+	opacity: 0.7;
+}
 
 
 
@@ -494,6 +485,7 @@ footer {
 	#email-container .email-holder {
 		
 		margin-top: 0px;
+
 	}
 
 	#email-container .email-info {
@@ -546,17 +538,17 @@ footer {
 
 }	
 
-	@media(max-width: 380px){
 
 
+@media(max-width: 380px){
+
+	
 	#email-arrow {
 	  	color: white;
 	 	position: relative;
 	 	right: -100px;
 	 	bottom: 30px;
 	}
-
-
 
 	#email-container .email-holder {
 	margin-top: -10px;
@@ -567,7 +559,9 @@ footer {
 }
  
 
-	@media(max-width: 320px){
+
+
+@media(max-width: 320px){
 
 
 	#showcase h1 {
@@ -583,13 +577,11 @@ footer {
 
 	}
 
-
 	#email-container .email-holder {
 	margin-top: -10px;
 	margin-bottom: 10px;
 
 	}
-
 
 }
 
