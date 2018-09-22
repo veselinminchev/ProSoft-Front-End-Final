@@ -302,7 +302,27 @@ article#main-col {
 }
 
 
+#iphone .container {
+	margin-top: 34px;
+}
 
+
+#iphone img {
+	float: left;
+	margin-left: 30px;
+}
+
+#iphone .container .iphoneInfo {
+	float: right;
+	width: 50%;
+	margin-top: 100px;
+	margin-right: 150px;
+}
+
+
+#iphone .container .iphoneInfo h2 {
+	font-size: 47px;
+}
 
 
 
@@ -321,7 +341,7 @@ background: -moz-linear-gradient(left, rgba(32,41,163,1) 0%, rgba(46,120,247,1) 
 background: -webkit-linear-gradient(left, rgba(32,41,163,1) 0%,rgba(46,120,247,1) 0%,rgba(46,63,247,1) 44%,rgba(32,14,234,1) 100%);
 background: linear-gradient(to right, rgba(32,41,163,1) 0%,rgba(46,120,247,1) 0%,rgba(46,63,247,1) 44%,rgba(32,14,234,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2029a3', endColorstr='#200eea',GradientType=1 );
-	margin-top: 80px;
+	margin-top: 34px;
 }
 
 #email-container .email-info {
@@ -364,11 +384,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2029a3', end
 	color: white;
 
 
+
 }
+
+
+
+
 
 ::placeholder {
 	color: white;
 	font-size: 20px;	
+}
+
+input:placeholder-shown {
+  border-color: silver;
 }
 
 
@@ -408,6 +437,7 @@ footer {
 	background: url(../images/footer_background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
 
@@ -429,10 +459,35 @@ footer i:hover {
 	#email-container .email-info,
 	#email-container .email-holder,
 	aside#sidebar,
-	article#main-col{
+	article#main-col,
+	#iphone .container .iphoneInfo{
 		float: none;
 		text-align: center;
 		width: 100%;
+	}
+
+	#iphone img {
+		float: none;
+		display: inherit;
+		margin: 0 auto;	
+
+	}
+	
+	#iphone .container {
+		margin-top: 20px;
+
+	}
+
+	#iphone .container .iphoneInfo {
+		margin-top: 15px;
+	}
+
+	#iphone .container .iphoneInfo h2 {
+		font-size: 50px;
+	}
+
+	#iphone .container {
+		margin-bottom: -18px;
 	}
 
 	header {
@@ -524,6 +579,13 @@ footer i:hover {
 		font-size: 27px;
 	}
 
+	#iphone .container .iphoneInfo h2 {
+		font-size: 38px;
+	}
+
+
+
+
 	#email-container .email-holder {
 		
 		margin-left: 0px;
@@ -549,6 +611,11 @@ footer i:hover {
 	 	right: -100px;
 	 	bottom: 30px;
 	}
+
+	#iphone .container .iphoneInfo h2 {
+		font-size: 37px;
+	}
+
 
 	#email-container .email-holder {
 	margin-top: -10px;
@@ -576,6 +643,18 @@ footer i:hover {
 		margin-top: 10px;
 
 	}
+
+	#iphone .container .iphoneInfo h2 {
+		font-size: 30px;
+	}
+
+	#iphone img {
+		display: inherit;
+		margin-left: -20px;	
+
+	}
+
+
 
 	#email-container .email-holder {
 	margin-top: -10px;
