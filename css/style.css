@@ -16,8 +16,8 @@ body {
 
 }
 
-
-/*Глобални настройки*/
+/***************************************************/
+/************Глобални настройки*****************/
 
 .container {
 	width: 80%;
@@ -30,7 +30,12 @@ ul {
 	padding: 0;
 }
 
-h1, h2, h3, h4, h5, h5 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h5 {
 	font-family: 'MonteBold', sans-serif;
 }
 
@@ -60,7 +65,12 @@ ul li {
 	text-align: center;
 }
 
-/*Header*/
+
+
+
+
+/****************************************************/
+/*******************Header***********************/
 
 header {
 	background: #f2f2f2;
@@ -112,8 +122,11 @@ header a:hover {
 }
 
 
-/*Hamburger menu*/
 
+
+
+/***************************************************/
+/******************* Hamburger menu ******************/
 
 header.responsive {
 	display: none;
@@ -144,7 +157,12 @@ header.responsive {
 }	
 
 
-/*News box*/
+
+
+
+
+/***************************************************/
+/*/*********** News box ******************************/
 
 #news-box {
 	min-height: 15px;
@@ -163,7 +181,12 @@ header.responsive {
 }
 
 
-/*Главен изглед*/
+
+
+
+
+/***************************************************/
+/*************************Главен изглед*************/
 
 #showcase {
 	min-height: 400px;
@@ -175,7 +198,6 @@ header.responsive {
 	z-index: 1;
 
 }
-
 
 #showcase h1 {
 	margin-top: 100px;
@@ -191,18 +213,17 @@ header.responsive {
 
 .btn-primary {
 	background-color: #4B32F0;
-	/*box-shadow: 0px 11px 16px 3px rgba(0, 0, 0, 0.20);*/
 	text-transform: uppercase;
-	 transition: all 0.3s ease-in-out;
-	 color: #fff;
-	 border: none;
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+	border: none;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 500;
-	 padding-left: 50px;
-	 padding-right: 50px;
-	 padding-top: 10px;
-	 padding-bottom: 10px;
-	 font-size: 13px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 13px;
 
 }
 
@@ -214,7 +235,11 @@ header.responsive {
 
 
 
-/*Кутии*/
+
+
+
+/***************************************************/
+/********************Кутии**************************/
 
 #boxes {
 	margin-top: 35px;
@@ -241,10 +266,8 @@ header.responsive {
 	margin-bottom: 25px;
 }
 
-.zoom {
-   
-    transition: transform .5s; /* Animation */
- 
+.zoom {  
+    transition: transform .5s; /* Animation */ 
 }
 
 .zoom:hover {
@@ -252,7 +275,12 @@ header.responsive {
 }
 
 
-/*Section-Info*/
+
+
+
+
+/***************************************************/
+/*********************Section-Info******************/
 
 #section-info {
 	min-height: 80px;
@@ -286,7 +314,12 @@ header.responsive {
 
 
 
-/*Sidebar*/
+
+
+
+/***************************************************/
+/*******************Sidebar*************************/
+
 aside#sidebar {
 	float: right;
 	width: 30%;
@@ -295,7 +328,9 @@ aside#sidebar {
 
  
 
-/*Main-col*/
+ /***************************************************/
+/***********************Main-col*********************/
+
 article#main-col {
 	float: left;
 	width: 65%;
@@ -305,7 +340,6 @@ article#main-col {
 #iphone .container {
 	margin-top: 34px;
 }
-
 
 #iphone img {
 	float: left;
@@ -319,25 +353,24 @@ article#main-col {
 	margin-right: 40px;
 }
 
-
 #iphone .container .iphoneInfo h2 {
 	font-size: 47px;
 }
 
 
 
-/******************************************
-******************************************/
 
-/*Email container*/
+
+/***************************************************/
+/*********************Email container***************/
 
 #email-container {
 	min-height: 80px;
 	background: rgb(32,41,163);
-background: -moz-linear-gradient(left, rgba(32,41,163,1) 0%, rgba(46,120,247,1) 0%, rgba(46,63,247,1) 44%, rgba(32,14,234,1) 100%);
-background: -webkit-linear-gradient(left, rgba(32,41,163,1) 0%,rgba(46,120,247,1) 0%,rgba(46,63,247,1) 44%,rgba(32,14,234,1) 100%);
-background: linear-gradient(to right, rgba(32,41,163,1) 0%,rgba(46,120,247,1) 0%,rgba(46,63,247,1) 44%,rgba(32,14,234,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2029a3', endColorstr='#200eea',GradientType=1 );
+	background: -moz-linear-gradient(left, rgba(32,41,163,1) 0%, rgba(46,120,247,1) 0%, rgba(46,63,247,1) 44%, rgba(32,14,234,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(32,41,163,1) 0%,rgba(46,120,247,1) 0%,rgba(46,63,247,1) 44%,rgba(32,14,234,1) 100%);
+	background: linear-gradient(to right, rgba(32,41,163,1) 0%,rgba(46,120,247,1) 0%,rgba(46,63,247,1) 44%,rgba(32,14,234,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2029a3', endColorstr='#200eea',GradientType=1 );
 	margin-top: 34px;
 }
 
@@ -353,18 +386,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2029a3', end
 	font-size: 35px;
 }
 
-
 #email-container .email-holder {
 	float: right;
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-right: 30px;
 	margin-bottom: 30px;
 
-
 }
 
-
-#email-container .customEmail {
+#email-container input {
 	border-bottom: 3px solid white;
 	border-top: 0;
 	border-right: 0;
@@ -377,24 +407,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2029a3', end
     text-align: start;
     outline: none;
 	background-color: transparent;
-	font-size: 25px;
 	color: white;
-
-
+	width: 300px;
+	font-size: 14px;
 
 }
-
-
-
-
 
 ::placeholder {
 	color: white;
-	font-size: 20px;	
-}
-
-input:placeholder-shown {
-  border-color: silver;
+	font-size: 15px;	
 }
 
 
@@ -406,12 +427,17 @@ input:placeholder-shown {
   	color: white;
  	position: relative;
  	right: 30px;
+ 	cursor: pointer;
+}
+
+#email-arrow:hover {
+	transform: scale(1.1);
 }
 
 
-/***********************************************
-***********************************************/
 
+/***************************************************/
+/*********************FOOTER************************/
 
 
 #media-logo {
@@ -425,7 +451,6 @@ footer hr {
 	color: white;
 }
 
-/*Footer*/
 
 footer {
 	padding: 20px;
@@ -444,6 +469,15 @@ footer i:hover {
 
 
 
+/***************************************************/
+/***************************************************/
+
+
+
+
+
+
+
 /*Media Queries*/
 
 @media(max-width: 992px){
@@ -457,6 +491,10 @@ footer i:hover {
 
 }
 
+
+
+
+/*Tablet*/
 
 @media(max-width: 768px){
 	header #logo,
@@ -498,6 +536,9 @@ footer i:hover {
 		margin-bottom: -18px;
 	}
 
+
+
+
 	header {
 		display: none;
 	}
@@ -522,6 +563,9 @@ footer i:hover {
 		padding-right: 5px;
 	}
 
+
+
+
 	#news-box {
 		display: none;
 	}
@@ -545,9 +589,18 @@ footer i:hover {
 
 	}
 
+	#email-container input {
+		width: 80%;
+	}
+
 	#email-container .email-holder {
 		
 		margin-top: 0px;
+
+	}
+
+	::placeholder {
+	font-size: 16px;
 
 	}
 
@@ -558,14 +611,12 @@ footer i:hover {
 		margin-top: -5px;
 	}
 
-	::placeholder {
-	font-size: 16px;
-
-	}
-
-
-
 }
+
+
+
+
+/*Phones*/
 
 @media(max-width: 568px){
 	
@@ -591,9 +642,6 @@ footer i:hover {
 		font-size: 38px;
 	}
 
-
-
-
 	#email-container .email-holder {
 		
 		margin-left: 0px;
@@ -601,22 +649,25 @@ footer i:hover {
 	}
 
 	::placeholder {
-	font-size: 15px;
+	font-size: 10px;
 
 	}
-
 
 }	
 
 
 
+
+
+
+/*Small Phones*/
+
 @media(max-width: 380px){
 
-	
 	#email-arrow {
 	  	color: white;
 	 	position: relative;
-	 	right: -100px;
+	 	right: -130px;
 	 	bottom: 30px;
 	}
 
@@ -624,17 +675,23 @@ footer i:hover {
 		font-size: 37px;
 	}
 
-
 	#email-container .email-holder {
 	margin-top: -10px;
 	margin-bottom: 0px;
 
 	}
 
+	#email-container input {
+		width: 300px;
+	}
+
 }
  
 
 
+
+
+/*Extra small Phones*/
 
 @media(max-width: 320px){
 
@@ -660,6 +717,11 @@ footer i:hover {
 		display: inherit;
 		margin-left: -20px;	
 
+	}
+
+
+	#email-arrow {
+	 	right: -110px;
 	}
 
 
