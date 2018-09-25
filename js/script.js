@@ -66,19 +66,15 @@ $(window).scroll(function(){
 
 $(document).ready(function(){
 
-$(function () {
-    var bht = $('body').height();
-    var wht = $(window).height();
-    if (bht < wht) {
-        $('footer').css("position", "absolute");
-        $('footer').css("bottom", "10px");
+	$(function () {
+	    var bht = $('body').height();
+	    var wht = $(window).height();
+	    if (bht < wht) {
+	        $('footer').css("position", "absolute");
+	        $('footer').css("bottom", "10px");
 
-    }
-});
-
-
-
-	
+	    }
+	});
 
 });
 

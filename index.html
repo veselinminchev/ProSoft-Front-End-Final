@@ -19,31 +19,38 @@
 
 	<!-- Main CSS File -->
 		<link rel="stylesheet" href="css/style.css">
-
-
-
 </head>
+
 <body>
 
-	<header>
-		<div class="container">
-			<div id="logo">
+
+
+	<!-- Header -->
+
+		<header>
+			<div class="container">
+				<div id="logo">
 					<h1>Logo name</h1>	
+				</div>
+
+				<nav>
+					<ul>
+						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="contact.html">Contacts</a></li>
+					</ul>
+				</nav>
+
 			</div>
-			<nav>
-				<ul>
-					<li class="current"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="contact.html">Contacts</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+		</header>
 
 
+<!-- Burger menu -->
+	
+<div class="burger-menu">
 
-<header class="responsive">
+	<header class="responsive">
 			<div class="container">
 		<!--Navbar-->
 			<nav class="navbar navbar-light light-blue lighten-4">
@@ -60,14 +67,14 @@
 
 	        <!-- Links -->
 	        <ul class="navbar-nav mr-auto">
-	            <li class="nav-item active">
+	            <li class="nav-item">
 	                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 	            </li>
 	            <li class="nav-item">
 	                <a class="nav-link" href="about.html">About</a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link" href="services.html">Services</a>
+	                <a class="nav-link active" href="services.html">Services</a>
 	            </li>
 	             <li class="nav-item">
 	                <a class="nav-link" href="contact.html">Contacts</a>
@@ -81,20 +88,23 @@
 		</nav>
 		<!--/.Navbar-->
 		</div>	
-</header>	
+	</header>	
+</div>
 
 
 
 
-	
+	<!-- News-box-Container -->
+		
 	<section id="news-box">
-		<div class="container">
-			<p>This is a special message from us. Get a 50% discount right now.</p>
-		</div>
+			<div class="container">
+				<p>This is a special message from us. Get a 50% discount right now.</p>
+			</div>
 	</section>
 
 
 
+	<!-- Showcase Container -->
 
 	<section id="showcase">
 		<div class="container">
@@ -112,9 +122,11 @@
 
 
 
+	<!-- Boxes -->
 	<div id="scrollToBoxes">
 		
 		<section id="boxes">
+
 			<div class="container">
 				<h2 class="center light">Technologies We Use</h3>
 				<div class="box">
@@ -138,9 +150,10 @@
 	</div>
 
 
-
+	<!-- Section-Info -->
 	<section id="section-info">
 		<div class="container">
+			
 			<div class="col">
 				<h3>
 					<span class="counter">100</span>
@@ -148,6 +161,7 @@
 				</h3>
 				<p class="light">Downloads</p>
 			</div>
+			
 			<div class="col">
 				<h3>
 					<span class="counter">100</span>
@@ -155,6 +169,7 @@
 				</h3>
 				<p class="light">Satisfaction</p>
 			</div>
+			
 			<div class="col">
 				<h3>
 					<span class="counter">97</span>
@@ -166,9 +181,9 @@
 		</div>
 	</section>
 
-	
+		
 
-	
+	<!-- iPhone Info Container -->
 	<section id="iphone">
 			<div class="container">
 				<img src="images/iphonex.png" alt="iphone">
@@ -183,17 +198,13 @@
 
 
 			</div>		
-
-
-
-
 	</section>
 
 
-
+	<!-- Email-Container -->
 	<section id="email-container">
 		<div class="container">
-	
+
 				<div class="email-info">
 					<h3>Latest from us</h3>
 					<p class="light">Recieve news, catalogs and updates</p>
@@ -203,15 +214,13 @@
 					<input type="text" placeholder="Enter your email address">
 
 				<i class="fas fa-arrow-right" id="email-arrow"></i>
+				</div>	
 
-
-				</div>
-			
 		</div>				
 	</section>
 
 
-
+	<!-- Footer  -->
 	<footer class="center">
 		
 		<section id="media-logo">
@@ -227,22 +236,21 @@
 			</div>
 		</section>
 
-		
-
 		<p>
 			We design iOS Apps, Copyright &copy; 2018
 		</p>
+
 	</footer>
 
 
 
 
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap-4.1.js"></script>
-	<script src="js/fontawesome.js"></script>
-	<script src="js/jquery.counterup.js"></script>
-	<script src="js/jquery.waypoints.js"></script>
-	<script src="js/script.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap-4.1.js"></script>
+<script src="js/fontawesome.js"></script>
+<script src="js/jquery.counterup.js"></script>
+<script src="js/jquery.waypoints.js"></script>
+<script src="js/script.js"></script>
 
 	
 </body>
