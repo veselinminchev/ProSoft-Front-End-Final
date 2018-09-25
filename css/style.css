@@ -14,6 +14,7 @@ body {
 	margin: 0;
 	background-color: #f4f4f4;
 
+
 }
 
 /***************************************************/
@@ -63,6 +64,11 @@ ul li {
 
 .center {
 	text-align: center;
+}
+
+.iconImg {
+	width: 100px;
+	height: 100px;
 }
 
 
@@ -234,6 +240,28 @@ header.responsive {
 
 
 
+#showcase_services {
+	min-height: 200px;
+	background: url(../images/app_development_services.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #ffffff;
+	z-index: 1;
+	position: relative;
+
+}
+
+
+
+#showcase_services h1 {
+	margin-top: 100px;
+	font-size: 54px;
+	margin-bottom: 100px;
+	font-weight: 700;
+	line-height: 65px;
+}
+
 
 
 
@@ -326,15 +354,70 @@ aside#sidebar {
 	margin-top: 10px;
 }
 
+aside#form {
+	width: 30%
+}
+
+
+
  
 
  /***************************************************/
 /***********************Main-col*********************/
 
+
+
 article#main-col {
-	float: left;
+/*	float: left;*/
 	width: 65%;
+	margin: 0 auto;
 }
+
+
+
+section#main {
+	margin-top: 20px;
+
+}
+
+section#main .page-title {
+	margin-bottom: 30px;
+}
+
+ul#services li {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	color: black;
+	border: 1px solid #cecece;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	transition: transform 0.5s; /* Animation */ 
+
+
+}
+
+ul#services li img {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	
+}
+
+
+ul#services li:hover {
+	transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+ul#services li button {
+	margin-top: 8px;
+	margin-bottom: 12px;
+
+}
+
+
+
 
 
 #iphone .container {
@@ -443,8 +526,10 @@ article#main-col {
 #media-logo {
 	margin-top: 7px;
 }
+
 footer i {
 	padding-right: 10px;
+	cursor: pointer;
 }
 
 footer hr {
@@ -453,12 +538,13 @@ footer hr {
 
 
 footer {
+	width: 100%;
 	padding: 20px;
-	margin-top: 0px;
 	color: #cecece;
 	background: url(../images/footer_background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+
 	
 }
 
@@ -472,6 +558,24 @@ footer i:hover {
 /***************************************************/
 /***************************************************/
 
+
+/***************************************************/
+						/*CONTACTS*/				
+/***************************************************/
+
+
+.mapouter {
+	margin-top: 50px;
+	margin-bottom: 100px;
+
+}
+
+#contacts-header h2 {
+	
+	margin-top: 20px;
+	font-size: 40px;
+
+}
 
 
 
@@ -512,6 +616,11 @@ footer i:hover {
 		width: 100%;
 	}
 
+	.container {
+		width: 93%;
+	}
+
+
 	#iphone img {
 		float: none;
 		display: inherit;
@@ -523,6 +632,7 @@ footer i:hover {
 		margin-top: 20px;
 
 	}
+
 
 	#iphone .container .iphoneInfo {
 		margin-top: 15px;
@@ -577,7 +687,7 @@ footer i:hover {
 
 
 	#showcase h1 {
-		margin-top: 80px;
+		margin-top: 120px;
 		font-size: 50px;
 	}
 	#showcase p {
@@ -629,7 +739,7 @@ footer i:hover {
 	}
 
 	#showcase h1 {
-		margin-top: 50px;
+		margin-top: 80px;
 		font-size: 40px;
 		line-height: 1.5;
 	}
@@ -685,6 +795,8 @@ footer i:hover {
 		width: 300px;
 	}
 
+
+
 }
  
 
@@ -697,7 +809,7 @@ footer i:hover {
 
 
 	#showcase h1 {
-		margin-top: 30px;
+		margin-top: 80px;
 		font-size: 40px;
 	}
 	#showcase p {
@@ -733,5 +845,211 @@ footer i:hover {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+.wrapper {
+  position: absolute;
+  bottom: 10px;
+  background: transperant;
+  width: 100%;
+  height: 10vh;
+  overflow: hidden;
+
+
+
+}
+
+.blockcont {
+  position: relative;
+  top: 50%;
+  width: 100%;
+}
+
+.block {
+  background: #29f900;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  float: left;
+  border-radius: 5px;
+  transition: all 2s;
+  animation: ecg 5s linear infinite;
+}
+
+.block:nth-child(1) {
+  animation-delay: 232ms;
+}
+
+.block:nth-child(2) {
+  animation-delay: 224ms;
+}
+
+.block:nth-child(3) {
+  animation-delay: 216ms;
+}
+
+.block:nth-child(4) {
+  animation-delay: 208ms;
+}
+
+.block:nth-child(5) {
+  animation-delay: 200ms;
+}
+
+.block:nth-child(6) {
+  animation-delay: 192ms;
+}
+
+.block:nth-child(7) {
+  animation-delay: 184ms;
+}
+
+.block:nth-child(8) {
+  animation-delay: 176ms;
+}
+
+.block:nth-child(9) {
+  animation-delay: 168ms;
+}
+
+.block:nth-child(10) {
+  animation-delay: 160ms;
+}
+
+.block:nth-child(11) {
+  animation-delay: 152ms;
+}
+
+.block:nth-child(12) {
+  animation-delay: 144ms;
+}
+
+.block:nth-child(13) {
+  animation-delay: 136ms;
+}
+
+.block:nth-child(14) {
+  animation-delay: 128ms;
+}
+
+.block:nth-child(15) {
+  animation-delay: 120ms;
+}
+
+.block:nth-child(16) {
+  animation-delay: 112ms;
+}
+
+.block:nth-child(17) {
+  animation-delay: 104ms;
+}
+
+.block:nth-child(18) {
+  animation-delay: 96ms;
+}
+
+.block:nth-child(19) {
+  animation-delay: 88ms;
+}
+
+.block:nth-child(20) {
+  animation-delay: 80ms;
+}
+
+.block:nth-child(21) {
+  animation-delay: 72ms;
+}
+
+.block:nth-child(22) {
+  animation-delay: 64ms;
+}
+
+.block:nth-child(23) {
+  animation-delay: 56ms;
+}
+
+.block:nth-child(24) {
+  animation-delay: 48ms;
+}
+
+.block:nth-child(25) {
+  animation-delay: 40ms;
+}
+
+.block:nth-child(26) {
+  animation-delay: 32ms;
+}
+
+.block:nth-child(27) {
+  animation-delay: 24ms;
+}
+
+.block:nth-child(28) {
+  animation-delay: 16ms;
+}
+
+.block:nth-child(29) {
+  animation-delay: 8ms;
+}
+
+.block:nth-child(30) {
+}
+
+@keyframes ecg {
+  0% {
+    left: 0;
+  }
+
+  25% {
+    left: 25%;
+    transform: translate(0,0);
+  }
+
+  50% {
+    left: 50%;
+    transform: translate(0,0);
+  }
+
+  26%,51%,76% {
+    transform: translate(0,-30px);
+  }
+
+  27%,52%,77% {
+    transform: translate(0,0);
+  }
+
+  28%,53%,78% {
+    transform: translate(0,30px);
+  }
+
+  29%,54%,79% {
+    transform: translate(0,0);
+  }
+
+  30%,55%,80% {
+    transform: translate(0,10px);
+  }
+
+  31%,56%,81% {
+    transform: translate(0,0);
+  }
+
+  75% {
+    left: 75%;
+    transform:translate(0,0);
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+  
 
 
