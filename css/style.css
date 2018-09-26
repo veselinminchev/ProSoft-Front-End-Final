@@ -52,13 +52,13 @@ p {
 	font-family: 'MonteBold', sans-serif;
 }
 
-li a {
+header li a {
 	font-family: 'HelveticaNeue', sans-serif;
 	font-weight: 500;
 
 }
 
-ul li {
+header ul li {
 	list-style: none;
 }
 
@@ -75,33 +75,37 @@ ul li {
 
 
 
+
 /****************************************************/
 /*******************Header***********************/
 
 header {
 	background: #f2f2f2;
 	color: #010101;
-	padding-top: 30px;
-	padding-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	min-height: 70px;
 }
 
-header a {
+header li a {
 	color: #344251;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
 }
 
-header li {
+header ul li {
 	float: left;
 	display: inline-block;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-header #logo {
+header #logo img {
 	float: left;
+	width: 220px;
+	height: 100px;
+	margin-top: -10px;
 }
 
 header #logo h1 {
@@ -111,7 +115,7 @@ header #logo h1 {
 
 header nav {
 	float: right;
-	margin-top: 15px;
+	margin-top: 37px;
 }
 
 header .current a {
@@ -122,12 +126,17 @@ header .current a {
 
 }
 
-header a:hover {
+header ul a:hover {
 	color: #50647a;
 	text-decoration:none;
 }
 
-
+header #logo a {
+	text-decoration: none;
+	color: black;
+	text-transform: none;
+	font-size: 50px;
+}
 
 
 
@@ -173,6 +182,7 @@ header.responsive {
 #news-box {
 	min-height: 15px;
 	background-color: #1b8cfc;
+	/*background: url(..//images/header-bg.jpg);*/
 	font-weight: bold;
 }	
 
@@ -570,7 +580,7 @@ aside#sidebar {
 }
 
 aside#form {
-	width: 30%
+	width: 30%;
 }
 
 
@@ -609,6 +619,7 @@ ul#services li {
 	padding-left: 20px;
 	padding-right: 20px;
 	transition: transform 0.5s; /* Animation */ 
+	list-style: none;
 
 
 }
@@ -621,11 +632,11 @@ ul#services li img {
 
 
 ul#services li:hover {
-	transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-
+	/*background-color: #dddddd;*/
+	transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-ul#services li button {
+ul#services li a {
 	margin-top: 8px;
 	margin-bottom: 12px;
 
@@ -793,6 +804,15 @@ footer i:hover {
 }
 
 
+/*Form*/
+
+.form-color {
+	background-color: #F4F4F4;
+}
+
+.text-muted {
+	margin-top: 10px;
+}
 
 
 
@@ -935,6 +955,23 @@ footer i:hover {
 		margin-top: -5px;
 	}
 
+
+	.formButton{
+		text-align: center;
+	}
+
+	#form-contact {
+		margin-bottom: -30px;
+	}
+
+	section#contacts-header {
+		text-align: center;
+	}
+
+	.form-header {
+		text-align: center;
+	}	
+
 }
 
 
@@ -985,22 +1022,18 @@ footer i:hover {
 	#email-arrow {
 	  	color: white;
 	 	position: relative;
-	 	right: -130px;
-	 	bottom: 30px;
+	 	/*right: -130px;
+	 	bottom: 30px;*/
+	 	right: 30px;
+	 	bottom: 0px;
 	}
 
 	#iphone .container .iphoneInfo h2 {
 		font-size: 37px;
 	}
 
-	#email-container .email-holder {
-	margin-top: -10px;
-	margin-bottom: 0px;
-
-	}
-
 	#email-container input {
-		width: 300px;
+		width: 251px;
 	}
 
 
@@ -1037,13 +1070,14 @@ footer i:hover {
 
 	#email-arrow {
 	 	right: -110px;
+	 	bottom: 27px;
 	}
 
 
 
 	#email-container .email-holder {
 	margin-top: -10px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 
 	}
 
