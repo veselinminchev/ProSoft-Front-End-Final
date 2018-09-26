@@ -604,9 +604,36 @@ header.responsive {
 #about-us-col {
 	float: left;
 	width: 60%;
+	
 }
 
 
+
+.paragraph {
+	border-right: 2px solid #c6c6c6;
+	padding-right: 100px;
+}
+
+
+.jquery-background-video-wrapper {
+	height: 200px;	 
+  	margin-top: -40px;
+  	z-index: 10;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(14px);
+}
+
+.about-us h1 {
+	position: relative;
+	top: 100px;
+	font-size: 60px;
+	text-align: center;
+	z-index: 999;
+	color: black;
+}
 
 
 
@@ -616,7 +643,11 @@ header.responsive {
 aside#sidebar {
 	float: right;
 	width: 30%;
-	margin-top: 10px;
+
+}
+
+aside#sidebar h1 {
+	margin-bottom: 30px;
 }
 
 aside#form {
@@ -641,7 +672,7 @@ article#main-col {
 
 
 section#main {
-	margin-top: 20px;
+	margin-top: 50px;
 
 }
 
@@ -759,12 +790,22 @@ ul#services li a {
 	color: white;
 	width: 300px;
 	font-size: 14px;
+	padding-bottom: 10px;
 
 }
 
-::placeholder {
+#email-container input:focus {
+
+	border-bottom: 3px solid black;
+
+}
+
+
+
+#email-container input::placeholder {
 	color: white;
-	font-size: 15px;	
+	font-size: 15px;
+
 }
 
 
@@ -1020,6 +1061,17 @@ footer i:hover {
 		text-align: center;
 	}	
 
+	.paragraph {
+		border-right: none;
+		border-bottom: 2px solid #c6c6c6;
+		padding-right: 0;
+	}
+	aside#sidebar {
+		margin-top: 30px;s
+	}
+
+
+
 }
 
 
@@ -1118,7 +1170,7 @@ footer i:hover {
 
 	#email-arrow {
 	 	right: -110px;
-	 	bottom: 27px;
+	 	bottom: 33px;
 	}
 
 
@@ -1128,8 +1180,23 @@ footer i:hover {
 	margin-bottom: 5px;
 
 	}
+	
+	article#about-us-col h1 {
+		font-size: 30px;
+	}
+
+	aside#sidebar h1 {
+		font-size: 30px;
+	}
+
+
 
 }
+
+
+
+
+
 
 
 
