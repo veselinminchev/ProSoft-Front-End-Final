@@ -25,6 +25,7 @@ body {
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
+	position: relative;
 }
 
 ul {
@@ -230,6 +231,7 @@ header.responsive {
 	text-align: center;
 	color: #ffffff;
 	z-index: 1;
+	position: relative;
 
 }
 
@@ -265,6 +267,26 @@ header.responsive {
 	border-radius: 50px;
 	margin-top: 40px;
 }
+
+
+.bounce {
+
+	z-index: 10;
+
+	  -webkit-animation: bounce .5s infinite alternate;
+	  -moz-animation: bounce .5s infinite alternate;
+	  animation: bounce .5s infinite alternate;
+	}
+	@-webkit-keyframes bounce {
+	  to { -webkit-transform: scale(1.04); }
+	}
+	@-moz-keyframes bounce {
+	  to { -moz-transform: scale(1.04); }
+	}
+	@keyframes bounce {
+	  to { transform: scale(1.04); }
+	}
+
 
 
 
@@ -959,7 +981,7 @@ footer i:hover {
 	}
 
 	#showcase .btn {
-		margin-top: 10px;
+		margin-top: 30px;
 
 	}
 
@@ -1079,7 +1101,7 @@ footer i:hover {
 	}
 
 	#showcase .btn {
-		margin-top: 10px;
+		margin-top: 30px;
 
 	}
 
@@ -1108,8 +1130,6 @@ footer i:hover {
 	}
 
 }
-
-
 
 
 
