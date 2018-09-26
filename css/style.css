@@ -821,6 +821,14 @@ footer i:hover {
 
 }
 
+#contacts-header {
+	text-align: center;
+}
+
+.form-header {
+	text-align: center;
+	margin-top: 30px;
+}
 
 /*Form*/
 
@@ -831,6 +839,10 @@ footer i:hover {
 .text-muted {
 	margin-top: 10px;
 }
+
+.formButton{
+		text-align: center;
+	}
 
 
 
@@ -973,10 +985,6 @@ footer i:hover {
 		margin-top: -5px;
 	}
 
-
-	.formButton{
-		text-align: center;
-	}
 
 	#form-contact {
 		margin-bottom: -30px;
