@@ -1065,12 +1065,22 @@ footer i:hover {
 		border-right: none;
 		border-bottom: 2px solid #c6c6c6;
 		padding-right: 0;
+		padding-bottom: 20px;
+
 	}
 	aside#sidebar {
 		margin-top: 30px;s
 	}
 
 
+	.jquery-background-video-wrapper {
+
+	-webkit-filter: blur(30px);
+	-moz-filter: blur(30px);
+	-o-filter: blur(30px);
+	-ms-filter: blur(30px);
+	filter: blur(25px);
+}
 
 }
 
