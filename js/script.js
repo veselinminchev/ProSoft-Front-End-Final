@@ -79,9 +79,7 @@ $(document).ready(function(){
 });
 
 
-	$(".input").focus(function() {
-	 		$(this).parent().addClass("focus");
-	 	})
+
 
 
 
