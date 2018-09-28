@@ -2,6 +2,7 @@
     font-family: MonteBold;
     src: url(..//fonts/mont/Mont-HeavyDEMO.otf);
 }
+
 @font-face {
     font-family: MonteLight;
     src: url(..//fonts/mont/Mont-ExtraLightDEMO.otf);
@@ -13,13 +14,10 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #f4f4f4;
-
-
-
 }
 
 /***************************************************/
-/************Глобални настройки*****************/
+/************Global options*****************/
 
 .container {
 	width: 80%;
@@ -57,7 +55,6 @@ p {
 header li a {
 	font-family: 'HelveticaNeue', sans-serif;
 	font-weight: 500;
-
 }
 
 header ul li {
@@ -72,10 +69,6 @@ header ul li {
 	width: 100px;
 	height: 100px;
 }
-
-
-
-
 
 
 /****************************************************/
@@ -119,7 +112,6 @@ header #logo h1 {
 	margin: 0;
 }
 
-
 header nav {
 	float: right;
 	margin-top: 37px;
@@ -130,7 +122,6 @@ header .current a {
 	text-decoration: none;
 	border-bottom: 1px solid #50647a;
 	padding-bottom: 3px;
-
 }
 
 header ul a:hover {
@@ -145,10 +136,8 @@ header #logo a {
 	font-size: 50px;
 }
 
-
-
 /***************************************************/
-/******************* Hamburger menu ******************/
+/******************* Header Mobile Version ******************/
 
 header.responsive {
 	display: none;
@@ -191,12 +180,8 @@ header.responsive {
 }
 
 
-
-
-
-
 /***************************************************/
-/*/*********** News box ******************************/
+/*/*********** News-box ******************************/
 
 #news-box {
 	min-height: 15px;
@@ -212,16 +197,11 @@ header.responsive {
 	color: #ffffff;
 	text-align: center;
 	margin: 7px 0 7px 0;
-
 }
 
 
-
-
-
-
 /***************************************************/
-/*************************Главен изглед*************/
+/************************* Main view *************/
 
 #showcase {
 	min-height: 400px;
@@ -232,7 +212,6 @@ header.responsive {
 	color: #ffffff;
 	z-index: 1;
 	position: relative;
-
 }
 
 #showcase h1 {
@@ -260,7 +239,6 @@ header.responsive {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 13px;
-
 }
 
 .btn {
@@ -268,14 +246,11 @@ header.responsive {
 	margin-top: 40px;
 }
 
-
 .bounce {
-
 	z-index: 10;
-
-	  -webkit-animation: bounce .5s infinite alternate;
-	  -moz-animation: bounce .5s infinite alternate;
-	  animation: bounce .5s infinite alternate;
+	-webkit-animation: bounce .5s infinite alternate;
+	-moz-animation: bounce .5s infinite alternate;
+	animation: bounce .5s infinite alternate;
 	}
 	@-webkit-keyframes bounce {
 	  to { -webkit-transform: scale(1.04); }
@@ -287,9 +262,6 @@ header.responsive {
 	  to { transform: scale(1.04); }
 	}
 
-
-
-
 #showcase_services {
 	min-height: 200px;
 	background: url(../images/app_development_services.jpg);
@@ -299,10 +271,7 @@ header.responsive {
 	color: #ffffff;
 	z-index: 1;
 	position: relative;
-
 }
-
-
 
 #showcase_services h1 {
 	margin-top: 100px;
@@ -313,10 +282,8 @@ header.responsive {
 }
 
 
-
 /***************************************************/
 /*************Cardiograph Animation*****/
-
 
 .wrapper {
   position: absolute;
@@ -325,9 +292,6 @@ header.responsive {
   width: 100%;
   height: 10vh;
   overflow: hidden;
-
-
-
 }
 
 .blockcont {
@@ -516,12 +480,8 @@ header.responsive {
 }
   
 
-
-
-
-
 /***************************************************/
-/********************Кутии**************************/
+/******************** Boxes **************************/
 
 #boxes {
 	margin-top: 35px;
@@ -557,10 +517,6 @@ header.responsive {
 }
 
 
-
-
-
-
 /***************************************************/
 /*********************Section-Info******************/
 
@@ -580,7 +536,6 @@ header.responsive {
 	float: left;
 	padding: 20px;
 	line-height: 0.3;
-
 }
 
 #section-info .col h3 {
@@ -595,25 +550,18 @@ header.responsive {
 }
 
 
-
 /***************************************************/
 /*******************About us page*************************/
 
-
-
 #about-us-col {
 	float: left;
-	width: 60%;
-	
+	width: 60%;	
 }
-
-
 
 .paragraph {
 	border-right: 2px solid #c6c6c6;
 	padding-right: 100px;
 }
-
 
 .jquery-background-video-wrapper {
 	height: 200px;	 
@@ -635,15 +583,12 @@ header.responsive {
 	color: black;
 }
 
-
-
 /***************************************************/
-/*******************Sidebar*************************/
+/******************* Sidebar *************************/
 
 aside#sidebar {
 	float: right;
 	width: 30%;
-
 }
 
 aside#sidebar h1 {
@@ -655,25 +600,16 @@ aside#form {
 }
 
 
-
- 
-
  /***************************************************/
 /***********************Main-col*********************/
 
-
-
 article#main-col {
-/*	float: left;*/
 	width: 65%;
 	margin: 0 auto;
 }
 
-
-
 section#main {
 	margin-top: 50px;
-
 }
 
 section#main .page-title {
@@ -691,31 +627,21 @@ ul#services li {
 	padding-right: 20px;
 	transition: transform 0.5s; /* Animation */ 
 	list-style: none;
-
-
 }
 
 ul#services li img {
 	margin-top: 20px;
-	margin-bottom: 15px;
-	
+	margin-bottom: 15px;	
 }
 
-
 ul#services li:hover {
-	/*background-color: #dddddd;*/
 	transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 ul#services li a {
 	margin-top: 8px;
 	margin-bottom: 12px;
-
 }
-
-
-
-
 
 #iphone .container {
 	margin-top: 34px;
@@ -736,9 +662,6 @@ ul#services li a {
 #iphone .container .iphoneInfo h2 {
 	font-size: 47px;
 }
-
-
-
 
 
 /***************************************************/
@@ -771,7 +694,6 @@ ul#services li a {
 	margin-top: 40px;
 	margin-right: 30px;
 	margin-bottom: 30px;
-
 }
 
 #email-container input {
@@ -791,23 +713,16 @@ ul#services li a {
 	width: 300px;
 	font-size: 14px;
 	padding-bottom: 10px;
-
 }
 
 #email-container input:focus {
-
 	border-bottom: 3px solid black;
-
 }
-
-
 
 #email-container input::placeholder {
 	color: white;
 	font-size: 15px;
-
 }
-
 
 #email-container {
 	position: relative;
@@ -843,28 +758,18 @@ footer hr {
 	color: white;
 }
 
-
 footer {
 	width: 100%;
 	padding: 20px;
 	color: #cecece;
 	background: url(..//images/footer_background.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-
-	
+	background-size: cover;	
 }
-
 
 footer i:hover {
 	opacity: 0.7;
 }
-
-
-
-/***************************************************/
-/***************************************************/
-
 
 /***************************************************/
 						/*CONTACTS*/				
@@ -874,14 +779,11 @@ footer i:hover {
 .mapouter {
 	margin-top: 50px;
 	margin-bottom: 100px;
-
 }
 
-#contacts-header h2 {
-	
+#contacts-header h2 {	
 	margin-top: 20px;
 	font-size: 40px;
-
 }
 
 #contacts-header {
@@ -903,11 +805,9 @@ footer i:hover {
 	margin-top: 10px;
 }
 
-.formButton{
-		text-align: center;
-	}
-
-
+.formButton {
+	text-align: center;
+}
 
 
 /*Media Queries*/
@@ -919,8 +819,6 @@ footer i:hover {
 		float: none;
 		width: 100%
 	}
-
-
 }
 
 
@@ -947,19 +845,15 @@ footer i:hover {
 		width: 93%;
 	}
 
-
 	#iphone img {
 		float: none;
 		display: inherit;
 		margin: 0 auto;	
-
 	}
 	
 	#iphone .container {
 		margin-top: 20px;
-
 	}
-
 
 	#iphone .container .iphoneInfo {
 		margin-top: 15px;
@@ -973,12 +867,10 @@ footer i:hover {
 		margin-bottom: -18px;
 	}
 
-
-
-
 	header {
 		display: none;
 	}
+
 	header.responsive {
 		display: inline;
 	}
@@ -1000,54 +892,46 @@ footer i:hover {
 		padding-right: 5px;
 	}
 
-
-
-
 	#news-box {
 		display: none;
 	}
-
 
 	#showcase {
 		min-height: 350px;
 	}
 
-
 	#showcase h1 {
 		margin-top: 120px;
 		font-size: 50px;
 	}
+
 	#showcase p {
 		display: none;
 	}
 
 	#showcase .btn {
 		margin-top: 30px;
-
 	}
 
 	#email-container input {
 		width: 80%;
 	}
 
-	#email-container .email-holder {
-		
+	#email-container .email-holder {		
 		margin-top: 0px;
-
 	}
 
 	::placeholder {
 	font-size: 16px;
-
 	}
 
 	#email-container .email-info {
 		line-height: 1.3;
 	}
+
 	#email-container .email-info p.light {
 		margin-top: -5px;
 	}
-
 
 	#form-contact {
 		margin-bottom: -30px;
@@ -1066,22 +950,19 @@ footer i:hover {
 		border-bottom: 2px solid #c6c6c6;
 		padding-right: 0;
 		padding-bottom: 20px;
-
 	}
+
 	aside#sidebar {
 		margin-top: 30px;s
 	}
 
-
 	.jquery-background-video-wrapper {
-
-	-webkit-filter: blur(30px);
-	-moz-filter: blur(30px);
-	-o-filter: blur(30px);
-	-ms-filter: blur(30px);
-	filter: blur(25px);
-}
-
+		-webkit-filter: blur(30px);
+		-moz-filter: blur(30px);
+		-o-filter: blur(30px);
+		-ms-filter: blur(30px);
+		filter: blur(25px);
+	}
 }
 
 
@@ -1092,6 +973,7 @@ footer i:hover {
 	header nav a {
 		font-size: 13px;
 	}
+
 	header nav li {
 		padding-left: 5px;
 		padding-right: 5px;
@@ -1111,19 +993,14 @@ footer i:hover {
 		font-size: 38px;
 	}
 
-	#email-container .email-holder {
-		
+	#email-container .email-holder {		
 		margin-left: 0px;
-
 	}
 
 	::placeholder {
 	font-size: 10px;
-
 	}
-
 }	
-
 
 /*Small Phones*/
 
@@ -1132,8 +1009,6 @@ footer i:hover {
 	#email-arrow {
 	  	color: white;
 	 	position: relative;
-	 	/*right: -130px;
-	 	bottom: 30px;*/
 	 	right: 30px;
 	 	bottom: 0px;
 	}
@@ -1145,26 +1020,23 @@ footer i:hover {
 	#email-container input {
 		width: 251px;
 	}
-
-
 }
  
 /*Extra small Phones*/
 
 @media(max-width: 320px){
 
-
 	#showcase h1 {
 		margin-top: 80px;
 		font-size: 40px;
 	}
+
 	#showcase p {
 		display: none;
 	}
 
 	#showcase .btn {
 		margin-top: 30px;
-
 	}
 
 	#iphone .container .iphoneInfo h2 {
@@ -1174,21 +1046,16 @@ footer i:hover {
 	#iphone img {
 		display: inherit;
 		margin-left: -20px;	
-
 	}
-
 
 	#email-arrow {
 	 	right: -110px;
 	 	bottom: 33px;
 	}
 
-
-
 	#email-container .email-holder {
-	margin-top: -10px;
-	margin-bottom: 5px;
-
+		margin-top: -10px;
+		margin-bottom: 5px;
 	}
 	
 	article#about-us-col h1 {
@@ -1198,17 +1065,4 @@ footer i:hover {
 	aside#sidebar h1 {
 		font-size: 30px;
 	}
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
